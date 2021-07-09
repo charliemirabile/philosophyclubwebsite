@@ -1,2 +1,7 @@
-const http = require('http');
-http.createServer((req, res) => res.writeHead(200).end('ok')).listen(3000);
+const express = require('express');
+const app = express();
+app.use(express.static('public'));
+
+app.listen(3000, () => {
+  console.log(`Example app listening at http://localhost:3000`)
+});

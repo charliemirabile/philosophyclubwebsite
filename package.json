@@ -1,0 +1,24 @@
+{
+  "name": "philosophyclubwebsite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charliemirabile/philosophyclubwebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/charliemirabile/philosophyclubwebsite/issues"
+  },
+  "homepage": "https://github.com/charliemirabile/philosophyclubwebsite#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
